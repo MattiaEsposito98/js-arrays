@@ -10,7 +10,7 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = teachers.indexOf("Phil")
+const fourthTeacher = teachers[3]
 console.log("Esercizio n°1= " + fourthTeacher)
 
 
@@ -51,11 +51,11 @@ console.log("Esercizio n°9= " + teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length
-if (isTeachersEmpty === 0) {
-  console.log("Esercizio n°10=  L'array è vuoto")
+const isTeachersEmpty = teachers.length === 0
+if (isTeachersEmpty) {
+  console.log("L'array è vuoto")  
 } else {
-  console.log("Esercizio n°10= " + isTeachersEmpty)
+  console.log(`Ci sono ${teachers.length} insegnanti`)
 }
 
 
