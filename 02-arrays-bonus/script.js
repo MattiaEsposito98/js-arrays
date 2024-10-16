@@ -16,7 +16,7 @@ console.log ("Esercizio n°1= "+ reversedTeachers)
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 
-for (i=0; i<teachers.length ; i++) {
+for (let i=0; i<teachers.length ; i++) {
   const longNames = teachers[i]
   
 	if (longNames.length >= 5){
@@ -27,3 +27,5 @@ for (i=0; i<teachers.length ; i++) {
 // 3. Rimuovi 'Ed' dall'array teachers
 teachers.splice (1,1)
 console.log ("Esercizio n°3= " +teachers)
+
+
